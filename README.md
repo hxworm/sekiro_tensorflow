@@ -20,6 +20,7 @@ As is known to all , Supervised learning can only learn skills from the data we 
 Reinforcement Learning can update its network by itself , using the reward feedback , which means we no longer need to collect our own data sets this time . All the data sets come from the real-time interaction between DQN network and the game.
 By using this DQN network (see below for a link) , you can fight any boss you want in the game .
 Code link for using DQN to play Sekiro : https://github.com/analoganddigital/DQN_play_sekiro
+
 There still something you need to know ：
 * In order to shorten the time of restart the game , we need game modifier .
 * The link for game modifier : https://patch.ali213.net/showpatch/118405.html
@@ -48,6 +49,7 @@ Have fun !
 强化学习会根据reward奖励进行判断并且自己学习一种打斗方法。更重要的是，我们这次不再需要自己收集数据集了，所有更新数据均来自于DQN网络与游戏的实时交互。
 利用这个DQN代码（链接见下方），你可以挑战只狼中任何一个boss，只要boss的血条位置不变即可（因为我采用的是图像抓取的方式获取只狼的血量与boss的血量进行reward判断）。
 DQN打只狼代码链接：https://github.com/analoganddigital/DQN_play_sekiro
+
 然后还有一些注意事项：
 * 为了缩短只狼复活周期，在这个项目训练中，我们需要采用只狼的24项修改器，让只狼能够原地复活继续训练。
 * 修改器下载地址：https://patch.ali213.net/showpatch/118405.html
